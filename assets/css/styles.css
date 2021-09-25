@@ -109,3 +109,31 @@ header {
     justify-content: space-between;
     gap: 1em;
 }
+
+/* Main home */
+
+#main-home article {
+    margin: 3em 0;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2em;
+    gap: 3em;
+}
+
+.about-container p{
+    width: 70%;
+    align-self: center;
+}
+
+.img-container {
+    width: 30%;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 30px;
+}
