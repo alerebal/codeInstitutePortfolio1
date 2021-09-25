@@ -137,3 +137,87 @@ header {
     width: 100%;
     border-radius: 30px;
 }
+
+/* Our courses */
+
+#our-courses {
+    background-color: var(--cl-primary);
+}
+
+#our-courses-title {
+    color: white;
+    margin-bottom: 1em;
+}
+
+.our-courses-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    height: 500px;
+    padding: 0 2em;
+    background-color: var(--cl-primary);
+}
+
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-card {
+    max-width: 380px;
+    height: 300px;
+    background: var(--cl-neutral);
+    border-radius: 5px;
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 2px rgba(0, 0, 0, .5);
+    transition: .3s ease-in-out;
+}
+
+.course-card:hover {
+    height: 420px;
+    box-shadow: none;
+}
+
+.imgBx {
+    position: relative;
+    top: -30px;
+    border-radius: 5px;
+    /* box-shadow: 0 5px 20px rgba(0, 0, 0, .2); */
+}
+
+.imgBx img {
+    width: 100%;
+    border-radius: 5px;
+    -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
+}
+
+.course-card:hover img {
+    -webkit-filter: grayscale(0); /* Webkit */
+    filter: none; /* IE6-9 */
+    filter: grayscale(0); /* W3C */
+    box-shadow: 0 5px 2px var(--cl-primary);
+}
+
+.content {
+    margin-top: -100px;
+    padding: 10px 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.course-card:hover .content {
+    opacity: 1;
+    margin-top: 10px;
+    transition-delay: .3s;
+}
