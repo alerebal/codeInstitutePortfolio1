@@ -1,5 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300&display=swap');
 
+:root {
+    --ff-primary: 'Dancing Script', cursive, sans-serif;
+    --ff-secondary: 'Roboto', sans-serif;
 
+    --cl-primary: rgb(92,161,111);
+    --cl-secondary: rgb(4,141,165);
+    --cl-neutral: rgb(88, 90, 90);
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+body {
+    font-family: var(--ff-secondary);
+    color: var(--cl-neutral);
+    letter-spacing: .1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--ff-primary);
+    color: var(--cl-secondary);
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+#intro .title {
+    font-size: 3em;
+    margin-bottom: .8em;
+}
+
+#intro p {
+    font-size: 1.3em;
+}
+
+section {
+    padding: 3em;
+}
+
+ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cl-primary);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--cl-secondary);
+}
+
+.active {
+    color: var(--cl-secondary);
+}
+
+.text-center {
+    text-align: center;
+}
 
 /* Header */
 
@@ -9,4 +87,5 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: var(--cl-primary);
 }
