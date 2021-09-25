@@ -1,0 +1,12 @@
+
+
+
+/* Header */
+
+header {
+    height: 70vh;
+    background: url('../images/header_green_1920.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
