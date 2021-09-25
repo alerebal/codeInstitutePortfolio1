@@ -221,3 +221,20 @@ header {
     margin-top: 10px;
     transition-delay: .3s;
 }
+
+/* Footer */
+
+footer {
+    height: 10vh;
+    background-color: var(--cl-neutral);
+}
+
+.social-networks {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+
