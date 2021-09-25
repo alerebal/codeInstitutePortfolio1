@@ -89,3 +89,23 @@ header {
     background-position: center;
     background-color: var(--cl-primary);
 }
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 3em;
+    box-shadow: 0 2px 6px 1px var(--cl-primary);
+    background: var(--cl-neutral);
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
