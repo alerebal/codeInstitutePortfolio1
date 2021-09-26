@@ -1,0 +1,54 @@
+/* learning and practicing */
+
+/* intro */
+.data-intro {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-intro p {
+    width: 60%;
+    padding-left: 5em;
+}
+
+.data-intro iframe {
+    padding: 2em;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.main article h2 {
+    margin: 1.2em 0;
+}
+
+.main .note {
+    color: var(--cl-primary);
+    margin-top: .5em;
+    font-weight: bold;
+}
+
+/* aside */
+.aside {
+    position: sticky;
+    margin-top: 4em;
+    top: 30%;
+}
+
+.aside li {
+    padding: .4em;
+}
+
