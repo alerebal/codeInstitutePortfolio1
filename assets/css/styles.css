@@ -22,6 +22,7 @@
 
 body {
     font-family: var(--ff-secondary);
+    font-size: 1.12rem;
     color: var(--cl-neutral);
     letter-spacing: .1rem;
 }
@@ -108,7 +109,7 @@ header {
     margin-bottom: .8em;
 }
 
-#intro p {
+.intro .sub-title {
     font-size: 1.3em;
 }
 
