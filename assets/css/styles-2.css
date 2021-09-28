@@ -21,7 +21,6 @@
 
 .main {
     margin: 0 3em 6em 3em;
-    /* margin-left: 3em; */
     display: flex;
     justify-content: space-between;
 }
@@ -50,14 +49,24 @@
     gap: 1em;
 }
 
-/* aside */
-.aside {
-    position: sticky;
-    margin-top: 4em;
-    margin-right: 2em;
-    top: 30%;
+.practicing audio {
+    margin: .8em 0;
 }
 
+/* aside */
+.main aside {
+    width: 40%;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: sticky;
+    margin-top: 6em;
+    margin-right: 1em;
+    top: 30%;
+}
 
 .aside li {
     padding: .4em;
