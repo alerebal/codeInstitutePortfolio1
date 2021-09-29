@@ -8,6 +8,9 @@
     --cl-primary: rgb(83, 138, 99);
     --cl-secondary: rgb(4,141,165);
     --cl-neutral: rgb(41, 41, 41);
+    --cl-gradient-1: rgb(22, 44, 29);
+    --cl-gradient-2: rgb(20, 77, 87);
+    --cl-gradient-3: rgb(5, 5, 5);
 }
 
 *,
@@ -25,6 +28,7 @@ body {
     font-size: 1.12rem;
     color: var(--cl-neutral);
     letter-spacing: .1rem;
+    background: linear-gradient(180deg, var(--cl-gradient-1) 0%, var(--cl-gradient-2) 48%, var(--cl-gradient-3) 100%);
 }
 
 h1,
@@ -94,6 +98,7 @@ button:hover {
 .main-container {
     width: 80%;
     margin: 0 auto;
+    background-color: white;
 }
 
 /* Header */
