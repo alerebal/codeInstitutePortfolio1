@@ -90,6 +90,12 @@ button:hover {
     text-align: center;
 }
 
+/* Main container */
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Header */
 
 header {
