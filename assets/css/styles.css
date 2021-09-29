@@ -68,6 +68,24 @@ a:hover {
     color: var(--cl-secondary);
 }
 
+button {
+    width: 50%;
+    /* I can't use margin: 0 auto, it does not work in this case*/
+    margin-left: 25%;
+    padding: .4em;
+    border-radius: 3px;
+    color: white;
+    background-color: var(--cl-primary);
+    cursor: pointer;
+    transition: ease-in-out 250ms;
+}
+
+button:hover {
+    background-color: white;
+    color: var(--cl-primary);
+    transition: ease-in-out 250ms;
+}
+
 .text-center {
     text-align: center;
 }

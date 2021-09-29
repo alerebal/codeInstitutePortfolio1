@@ -72,3 +72,34 @@
     padding: .4em;
 }
 
+/* Contact */
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0px var(--cl-primary);
+}
+
+.form-control {
+    width: 80%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid var(--cl-primary);
+    padding: .5em;
+    margin: .3em 0;
+}
+
+form button {
+    margin-top: 2em;
+}
+
+
+
+
