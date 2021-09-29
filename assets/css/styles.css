@@ -113,6 +113,13 @@ header {
 }
 
 /* Navbar */
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
+}
 
 .navbar {
     display: flex;
@@ -274,6 +281,81 @@ footer {
         height: 55vh;
         background-image: url('../images/header_green_900.jpg');
     }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    #menu {
+        flex-direction: column;
+    }
+
+    nav {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        padding: 2em 1em;
+        background-color: var(--cl-neutral);
+        transform-origin: top;
+        transform: scale(1, 0);
+        transition: transform 400ms ease-in-out;
+    }
+
+    nav li {
+        opacity: 0;
+        transition: opacity 150ms ease-in-out;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+      
+    .nav-toggle-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1em;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background-color: var(--cl-primary);
+        height: 3px;
+        width: 2em;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: "";
+        position: absolute;
+    }
+
+    .nav-toggle-label span::before {
+        top: 7px;
+    }
+
+    .nav-toggle-label span::after {
+        bottom: 7px;
+    }
+
+    .nav-toggle:checked ~ nav {
+        transform: scale(1, 1);
+    }
+      
+    .nav-toggle:checked ~ nav li {
+        opacity: 1;
+        transition: opacity 150ms ease-in-out 150ms;
+    }
+
+
 }
 
 @media screen and (max-width: 600px) {
