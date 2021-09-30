@@ -170,6 +170,7 @@ header {
 
 .img-container {
     width: 30%;
+    align-self: center;
 }
 
 .img-container img {
