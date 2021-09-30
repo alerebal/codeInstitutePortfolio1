@@ -1,0 +1,92 @@
+@media screen and (max-width: 900px) {
+    header {
+        height: 55vh;
+        background-image: url('../images/header_green_900.jpg');
+    }
+
+    /* toggle navbar */
+    .navbar {
+        flex-direction: column;
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        padding: 2em 1em;
+        background-color: var(--cl-neutral);
+        transform-origin: top;
+        transform: scale(1, 0);
+        transition: transform 200ms ease-in-out 300ms;
+    }
+
+    nav li {
+        opacity: 0;
+        transition: opacity 250ms ease-in-out 250ms;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+      
+    .nav-toggle-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1em;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background-color: var(--cl-primary);
+        height: 3px;
+        width: 2em;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: "";
+        position: absolute;
+    }
+
+    .nav-toggle-label span::before {
+        top: 7px;
+    }
+
+    .nav-toggle-label span::after {
+        bottom: 7px;
+    }
+
+    .nav-toggle:checked ~ nav {
+        transform: scale(1, 1);
+        transition: ease-in-out 300ms;
+    }
+      
+    .nav-toggle:checked ~ nav li {
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 250ms;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 35vh;
+        background: url('../images/header_green_600.jpg');
+        background-position: center;
+    }
+}
