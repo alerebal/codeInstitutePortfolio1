@@ -87,10 +87,6 @@
     }
 
     /* intro */
-    /* .sub-title {
-        text-align: left;
-    } */
-
     .data-intro {
         flex-direction: column-reverse;
     }
@@ -158,6 +154,11 @@
         display: none;
     }
 
+    /* Contact */
+    form {
+        width: 80%;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -198,6 +199,17 @@
     iframe {
         width: 420px;
         height: 255px;
+    }
+
+    /* Contact */
+    form {
+        width: 100%;
+    }
+
+    form button {
+        /* margin 0 auto does not working here */
+        width: 80%;
+        margin-left: 10%;
     }
 
 }
