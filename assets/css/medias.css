@@ -1,4 +1,5 @@
 @media screen and (max-width: 900px) {
+
     header {
         height: 55vh;
         background-image: url('../images/header_green_900.jpg');
@@ -86,6 +87,10 @@
     }
 
     /* intro */
+    /* .sub-title {
+        text-align: left;
+    } */
+
     .data-intro {
         flex-direction: column-reverse;
     }
@@ -156,11 +161,50 @@
 }
 
 @media screen and (max-width: 600px) {
+    
     header {
         height: 35vh;
         background: url('../images/header_green_600.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    /* main home */
+    #main-home {
+        padding: 0;
+    }
+    .about-container {
+        width: 100%;
+    }
+
+    .about-container {
+        padding: 0;
+    }
+
+    .about-container p {
+        padding: 0 2em 4em 2em;
+    }
+
+    .about-container .img-container {
+        padding: 2em 0 0 0;
+    }
+
+    .about-container img {
+        border-radius: 0px;
+    }
+
+    /* learning and practicing */
+    iframe {
+        width: 420px;
+        height: 255px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    iframe {
+        width: 330px;
+        height: 255px;
     }
 }

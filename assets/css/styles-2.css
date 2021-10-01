@@ -17,6 +17,11 @@
     padding: 2em;
 }
 
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
 /* main */
 
 .main {
