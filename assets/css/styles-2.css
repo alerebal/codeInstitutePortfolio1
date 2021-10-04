@@ -81,6 +81,7 @@ iframe {
 form {
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 5em;
     padding: 2em;
     border-radius: 5px;
     box-shadow: 0 0 3px 0px var(--cl-primary);
