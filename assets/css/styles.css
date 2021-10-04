@@ -26,6 +26,7 @@
 body {
     font-family: var(--ff-secondary);
     color: var(--cl-neutral);
+    font-size: 1.12rem;
     letter-spacing: .1rem;
     background: linear-gradient(180deg, var(--cl-gradient-1) 0%, var(--cl-gradient-2) 48%, var(--cl-gradient-3) 100%);
 }
@@ -73,8 +74,9 @@ a:hover {
 
 button {
     width: 50%;
+    display: block;
     /* I can't use margin: 0 auto, it does not work in this case*/
-    margin-left: 25%;
+    margin: 0 auto;
     padding: .4em;
     border-radius: 3px;
     color: white;

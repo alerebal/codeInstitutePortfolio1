@@ -209,7 +209,7 @@
     form button {
         /* margin 0 auto does not working here */
         width: 80%;
-        margin-left: 10%;
+        margin: 0 auto;
     }
 
 }
