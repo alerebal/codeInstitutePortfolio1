@@ -141,7 +141,7 @@ header {
     gap: 1em;
 }
 
-.intro .title {
+.intro h1 {
     font-size: 3em;
     margin-bottom: .8em;
 }
