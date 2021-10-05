@@ -20,6 +20,7 @@
 iframe {
     width: 560px;
     height: 315px;
+    border: 0;
 }
 
 /* main */
@@ -37,8 +38,12 @@ iframe {
     gap: .5em;
 }
 
-.main article h2 {
-    margin: 1.3em 0 .5em 0;
+.section-title {
+    margin-bottom: .5em;
+}
+
+.main article h3 {
+    margin: 2.3em 0 .5em 0;
 }
 
 .main .note {
