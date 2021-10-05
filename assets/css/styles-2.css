@@ -86,6 +86,7 @@ iframe {
 form {
     width: 50%;
     margin: 0 auto;
+    margin-top: 3em;
     margin-bottom: 5em;
     padding: 2em;
     border-radius: 5px;
