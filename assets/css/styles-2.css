@@ -46,7 +46,7 @@ video {
 }
 
 .main .note {
-    color: var(--cl-primary);
+    color: var(--cl-neutral);
     margin-top: .5em;
     font-weight: bold;
 }

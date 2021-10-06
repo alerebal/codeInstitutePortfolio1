@@ -60,7 +60,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: var(--cl-primary);
+    color: var(--cl-neutral);
     font-weight: bold;
 }
 
@@ -133,6 +133,18 @@ header {
     padding: .5em 3em;
     box-shadow: 0 2px 6px 1px var(--cl-primary);
     background: var(--cl-neutral);
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: var(--cl-secondary);
+}
+
+.navbar .active {
+    border-bottom: 1px solid var(--cl-secondary);
 }
 
 #menu {
