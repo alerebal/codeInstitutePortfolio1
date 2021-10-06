@@ -13,14 +13,13 @@
     padding-left: 5em;
 }
 
-.data-intro iframe {
+.data-intro video {
     padding: 2em;
 }
 
-iframe {
-    width: 560px;
+video {
+    width: 500px;
     height: 315px;
-    border: 0;
 }
 
 /* main */
