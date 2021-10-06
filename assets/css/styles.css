@@ -104,9 +104,28 @@ button:hover {
 
 /* Header */
 
-header {
+header.index,
+.contact {
     height: 70vh;
-    background: url('../images/header_green_1920.jpg'); 
+    background: url('../images/headers/header_green_1920.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--cl-primary);
+}
+
+header.learning {
+    height: 70vh;
+    background: url('../images/headers/yoga_beach_1920.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--cl-primary);
+}
+
+header.practicing {
+    height: 70vh;
+    background: url('../images/headers/stones_beach_1920.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

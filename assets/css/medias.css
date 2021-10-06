@@ -1,8 +1,19 @@
 @media screen and (max-width: 900px) {
 
-    header {
+    header.index,
+    .contact {
         height: 55vh;
-        background-image: url('../images/header_green_900.jpg');
+        background-image: url('../images/headers/header_green_900.jpg');
+    }
+
+    header.learning {
+        height: 55vh;
+        background-image: url('../images/headers/yoga_beach_900.jpg');
+    }
+
+    header.practicing {
+        height: 55vh;
+        background-image: url('../images/headers/stones_beach_900.jpg');
     }
 
     .main-container {
@@ -163,12 +174,23 @@
 
 @media screen and (max-width: 600px) {
     
-    header {
+    header.index,
+    .contact {
         height: 35vh;
-        background: url('../images/header_green_600.jpg');
+        background: url('../images/headers/header_green_600.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    header.learning {
+        height: 35vh;
+        background-image: url('../images/headers/yoga_beach_600.jpg');
+    }
+
+    header.practicing {
+        height: 35vh;
+        background-image: url('../images/headers/stones_beach_640.jpg');
     }
 
     /* main home */
