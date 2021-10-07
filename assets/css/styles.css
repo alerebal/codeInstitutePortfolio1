@@ -298,6 +298,10 @@ footer {
     background-color: var(--cl-neutral);
 }
 
+footer a {
+    color: var(--cl-primary);
+}
+
 .social-networks {
     height: 100%;
     display: flex;
