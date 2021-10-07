@@ -75,19 +75,17 @@ a:hover {
 button {
     width: 50%;
     display: block;
-    /* I can't use margin: 0 auto, it does not work in this case*/
     margin: 0 auto;
     padding: .4em;
     border-radius: 3px;
     color: white;
-    background-color: var(--cl-primary);
+    background-color: var(--cl-neutral);
     cursor: pointer;
     transition: ease-in-out 250ms;
 }
 
 button:hover {
-    background-color: white;
-    color: var(--cl-primary);
+    opacity: .6;
     transition: ease-in-out 250ms;
 }
 
