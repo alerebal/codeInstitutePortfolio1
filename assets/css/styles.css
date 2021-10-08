@@ -262,15 +262,11 @@ header.practicing {
 .imgBx img {
     width: 100%;
     border-radius: 5px;
-    -webkit-filter: grayscale(1); /* Webkit */
-    filter: gray; /* IE6-9 */
-    filter: grayscale(1); /* W3C */
+    filter: grayscale(1); 
 }
 
 .course-card:hover img {
-    -webkit-filter: grayscale(0); /* Webkit */
-    filter: none; /* IE6-9 */
-    filter: grayscale(0); /* W3C */
+    filter: grayscale(0); 
     box-shadow: 0 5px 2px var(--cl-primary);
 }
 

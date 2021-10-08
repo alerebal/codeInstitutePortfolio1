@@ -155,9 +155,7 @@
     .imgBx img {
         width: 100%;
         border-radius: 5px;
-        -webkit-filter: none; /* Webkit */
-        filter: none; /* IE6-9 */
-        filter: grayscale(0); /* W3C */
+        filter: grayscale(0); 
     }
 
     /* main learning and practicing*/
