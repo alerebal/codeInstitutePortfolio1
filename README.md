@@ -12,11 +12,11 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
 - Responsive navigation toggle bar to allow users to navigate through the different sections of the page.
 
-![Image text](assets/images/readme/navbar.png) 
+![Image](assets/images/readme/navbar.png) 
 
-![Image text](assets/images/readme/navbar2.png)
+![Image](assets/images/readme/navbar2.png)
 
-![Image text](assets/images/readme/navbar3.png)
+![Image](assets/images/readme/navbar3.png)
 
 - __Home__
 
@@ -24,7 +24,7 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
 - At the bottom a section with some courses that the site offers to users. These courses will have a link to the contact page.
   
-![Image text](assets/images/readme/home.png)
+![Image](assets/images/readme/home.png)
 
 - __Learning__
 
@@ -32,7 +32,7 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
 - A sidebar with local links to redirect users to the different explanation paragraphs.
 
-![Image text](assets/images/readme/learning.png)
+![Image](assets/images/readme/learning.png)
 
 - __Practicing__
 
@@ -40,7 +40,7 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
 - A sidebar with local links to redirect users to the different meditations.
 
-![Image text](assets/images/readme/practicing.png)
+![Image](assets/images/readme/practicing.png)
 
 #### Learning and Practicing have the same introductory structure, with a video and a paragraph showing information about mindfulness.
 
@@ -48,18 +48,28 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
 - A form for users to submit questions and sign up for the newsletter.
 
-![Image text](assets/images/readme/contact.png)
+![Image](assets/images/readme/contact.png)
 
 ## Testing
 
 ### Validator Testing
 - __HTML__
 
-  - No errors were returned when passing through the official W3C validator
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
+
+![Image](assets/images/readme/validators/w3_validator_index.png)
+![Image](assets/images/readme/validators/w3_validator_learning.png)
+![Image](assets/images/readme/validators/w3_validator_practicing.png)
+![Image](assets/images/readme/validators/w3_validator_contact.png)
 
 - __CSS__
 
-  - No errors were found when passing through the official (Jigsaw) validator
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator)
+
+![Image](assets/images/readme/validators/w3_validator_css.png)
+##### Gave me some warnings about variables
+![Image](assets/images/readme/validators/w3_validator_css_warnings.png)
+  
 
 ### Lighthouse Testing
 
