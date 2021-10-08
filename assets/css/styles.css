@@ -290,7 +290,7 @@ header.practicing {
 /* Footer */
 
 footer {
-    height: 10vh;
+    height: auto;
     background-color: var(--cl-neutral);
 }
 
@@ -298,11 +298,23 @@ footer a {
     color: var(--cl-primary);
 }
 
-.social-networks {
+.footer-links {
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    margin-top: 2em;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.our-links li{
+    margin: .3em;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 1em;
     font-size: 1.4em;
 }
 
