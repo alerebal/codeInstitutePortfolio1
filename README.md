@@ -61,6 +61,24 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
   - No errors were found when passing through the official (Jigsaw) validator
 
+### Lighthouse Testing
+
+#### Home
+
+![Image](assets/images/readme/validators/index_lighthouse.jpg)
+
+#### Learning
+
+![Image](assets/images/readme/validators/learning_lighthouse.jpg)
+
+#### Practicing
+
+![Image](assets/images/readme/validators/practicing_lighthouse.jpg)
+
+#### Contact
+
+![Image](assets/images/readme/validators/contact_lighthouse.jpg)
+
 ## Resources
 
 ### Content 
