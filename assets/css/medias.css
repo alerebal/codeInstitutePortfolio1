@@ -130,6 +130,11 @@
         border-radius: 10px;
     }
 
+    /* parallax */
+    #parallax {
+        display: none;
+    }
+
     /* our courses */
     .our-courses-container {
         flex-direction: column;

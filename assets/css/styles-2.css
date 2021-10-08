@@ -1,3 +1,14 @@
+/* index parallax*/
+#parallax {
+    height: 70vh;
+    background-color: var(--cl-neutral);
+    background-image: url('../images/index/parallax_stones.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* learning and practicing */
 
 /* intro */
