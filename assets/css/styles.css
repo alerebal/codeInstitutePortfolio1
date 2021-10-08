@@ -100,6 +100,12 @@ button:hover {
     background-color: white;
 }
 
+/* Added this border to avoid space between these containers and the footer, this does not happen in index and contact */
+.main-container.learning,
+.practicing {
+    border: 1px solid white;
+}
+
 /* Header */
 
 header.index,
