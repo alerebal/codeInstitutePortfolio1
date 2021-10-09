@@ -10,7 +10,7 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
 - __Navigation Bar__
 
-- Responsive navigation toggle bar to allow users to navigate through the different sections of the page.
+  - Responsive navigation toggle bar to allow users to navigate through the different sections of the page.
 
 ![Image](assets/images/readme/navbar.png) 
 
@@ -20,25 +20,25 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
 - __Home__
 
-- Description of what Mindfulness is, as well as breath and chakras
+  - Description of what Mindfulness is, as well as breath and chakras
 
-- At the bottom a section with some courses that the site offers to users. These courses will have a link to the contact page.
+  - At the bottom a section with some courses that the site offers to users. These courses will have a link to the contact page.
   
 ![Image](assets/images/readme/home.png)
 
 - __Learning__
 
-- Introduction to Meditation for beginner users.
+  - Introduction to Meditation for beginner users. Each step to begin practicing meditation is explained on this page.
 
-- A sidebar with local links to redirect users to the different explanation paragraphs.
+  - A sidebar with local links to redirect users to the different explanation paragraphs.
 
 ![Image](assets/images/readme/learning.png)
 
 - __Practicing__
 
-- Different audio-guided meditations are offered to users here.
+  - Different audio-guided meditations are offered to users here. Five simple meditation exercises selected for users to practice. More exercises can be added in the future
 
-- A sidebar with local links to redirect users to the different meditations.
+  - A sidebar with local links to redirect users to the different meditations.
 
 ![Image](assets/images/readme/practicing.png)
 
@@ -46,25 +46,37 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
 - __Contact__
 
-- A form for users to submit questions and sign up for the newsletter.
+  - A form for users to submit questions and sign up for the newsletter.
+  
+  - All internal links that cannot be redirected to a specific place are redirected here (e.g. the courses, because I have only created the links as a way of practicing, not the courses page itself).
 
 ![Image](assets/images/readme/contact.png)
+
+## Features Left to Implement
+
+  - About us page.
+  
+  - A page with the different meditation courses.
 
 ## Testing
 
 ### Validator Testing
-- __HTML__
 
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
+#### HTML
+
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
 
 ![Image](assets/images/readme/validators/w3_validator_index.png)
+
 ![Image](assets/images/readme/validators/w3_validator_learning.png)
+
 ![Image](assets/images/readme/validators/w3_validator_practicing.png)
+
 ![Image](assets/images/readme/validators/w3_validator_contact.png)
 
-- __CSS__
+#### CSS
 
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator)
+- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator)
 
 ![Image](assets/images/readme/validators/w3_validator_css.png)
 ##### Gave me some warnings about variables
@@ -88,6 +100,29 @@ Throughout the page, the user can use the videos and audios to discover and prac
 #### Contact
 
 ![Image](assets/images/readme/validators/contact_lighthouse.jpg)
+
+## Bugs
+
+On the Learning and Practice pages, the main container and the footer were separated by a space. That did not happen in the Index and Contact pages.
+
+![Image](assets/images/readme/bugs/container_gap.png)
+
+What I did was add a border to the main container on both pages to fix it:
+
+![Image](assets/images/readme/bugs/fixing_bug_container.png)
+
+![Image](assets/images/readme/bugs/container_gap_fixed.png)
+
+
+## Deployment
+
+- This site has been deployed on GitHub pages by following these steps:
+    - In the GitHub repository, navigate to the Settings tab and in the left menu select Pages.
+    - From the source section drop-down menu, select the Master Branch.
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    - A link to the newly created page will be displayed here.
+
+Here you can see the page - https://alerebal.github.io/codeInstitutePortfolio1/index.html 
 
 ## Resources
 
