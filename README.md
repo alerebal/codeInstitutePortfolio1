@@ -122,7 +122,7 @@ What I did was add a border to the main container on both pages to fix it:
     - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
     - A link to the newly created page will be displayed here.
 
-[Here you can see the page](https://alerebal.github.io/codeInstitutePortfolio1/index.html){:target="_blank" rel="noopener"}  
+[Here you can see the page](https://alerebal.github.io/codeInstitutePortfolio1/index.html)  
 
 ## Resources
 
