@@ -42,7 +42,7 @@ Throughout the page, the user can use the videos and audios to discover and prac
 
 ![Image](assets/images/readme/practicing.png)
 
-#### Learning and Practicing have the same introductory structure, with a video and a paragraph showing information about mindfulness.
+- Learning and Practicing have the same introductory structure, with a video and a paragraph showing information about mindfulness.
 
 - __Contact__
 
@@ -50,7 +50,16 @@ Throughout the page, the user can use the videos and audios to discover and prac
   
   - All internal links that cannot be redirected to a specific place are redirected here (e.g. the courses, because I have only created the links as a way of practicing, not the courses page itself).
 
+#### I have used the GET method in the form because I wanted to show the confirm message page to the users and I couldn't do it because of the POST method
+
 ![Image](assets/images/readme/contact.png)
+
+- __Message__
+  
+  - A page to show a confirm message after the user submits the form.
+
+![Image](assets/images/readme/message.png)
+
 
 ## Features Left to Implement
 
