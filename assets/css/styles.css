@@ -300,6 +300,14 @@ footer {
     background-color: var(--cl-neutral);
 }
 
+footer section {
+    padding: 1em;
+}
+
+footer h2 {
+    font-size: 1.8em;
+}
+
 footer a {
     color: var(--cl-primary);
 }
@@ -307,9 +315,9 @@ footer a {
 .footer-links {
     height: 100%;
     display: flex;
-    margin-top: 2em;
+    margin-top: 1em;
     justify-content: space-around;
-    font-size: 1.2em;
+    font-size: .8em;
 }
 
 .our-links li{
