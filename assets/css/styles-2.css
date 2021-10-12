@@ -122,6 +122,12 @@ form button {
     margin-top: 2em;
 }
 
+.message {
+    padding: 3em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
 
 
 
